@@ -1,0 +1,63 @@
+# Androidクローズドテスト攻略組 — robots.txt
+# 検索エンジン・AI（LLM/生成AI）クローラーを歓迎します。
+
+User-agent: *
+Allow: /
+# 公開ページのレンダリングに必要な JS / CSS / データは許可したまま、
+# デザインシステムのソース・プレビュー（公開ページから読み込まれない）だけを除外。
+Disallow: /components/
+Disallow: /guidelines/
+Disallow: /templates/
+Disallow: /ui_kits/
+Disallow: /uploads/
+
+# --- AI / LLM クローラーを明示的に許可（AIO / LLMO / GEO） ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+Sitemap: https://androidclosedjp.github.io/sitemap.xml
