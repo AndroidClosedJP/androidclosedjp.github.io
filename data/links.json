@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "title": "公式・コミュニティ",
+      "eyebrow": "OFFICIAL",
+      "accent": "cyan",
+      "links": [
+        {
+          "label": "Discordサーバー",
+          "description": "参加・募集・お問い合わせはこちらから。",
+          "url": "https://discord.gg/sPUKSrC72Z"
+        },
+        {
+          "label": "X（旧Twitter）",
+          "description": "本コミュニティの公式SNSアカウントです。フォローお願いします。",
+          "url": "https://x.com/AndroidClosedJP"
+        }
+      ]
+    },
+    {
+      "title": "記事・ノウハウ",
+      "eyebrow": "ARTICLES",
+      "accent": "green",
+      "links": [
+        {
+          "label": "note",
+          "description": "クローズドテストの進め方や個人開発の知見をまとめた記事。",
+          "url": "https://note.com/androidclosed_jp"
+        },
+        {
+          "label": "Qiita",
+          "description": "技術的なTipsやテスト突破のノウハウを共有。",
+          "url": "https://qiita.com/AndroidClosedJP"
+        }
+      ]
+    },
+    {
+      "title": "サイト内のページ",
+      "eyebrow": "ON THIS SITE",
+      "accent": "cyan",
+      "links": [
+        {
+          "label": "アプリ一覧",
+          "description": "これまでクローズドテストを攻略したアプリ一覧",
+          "page": "apps"
+        },
+        {
+          "label": "利用規約と運営方針",
+          "description": "参加する前にご確認ください。",
+          "page": "terms"
+        }
+      ]
+    }
+  ]
+}
